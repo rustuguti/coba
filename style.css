@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.input-group button:hover {
+    background-color: #45a049;
+}
+
+.login-register-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-register-text a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-register-text a:hover {
+    text-decoration: underline;
+}
+header, footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-buttons button {
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.logout-button {
+    background-color: #FF0000;
+    color: white;
+}
+
+.logout-button:hover {
+    background-color: #CC0000;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    color:white
+    
+}
+
+.center {
+        text-align: center;
+}
+
+footer {
+         position: fixed; /* Memastikan footer tetap di bawah */
+         left: 0;
+         bottom: 0;
+         width: 100%; /* Lebar penuh */
+         text-align: center; /* Teks di tengah */
+         padding: 10px 0; /* Ruang di atas dan bawah */
+         background-color: #007BFF; /* Warna latar belakang footer */
+         color: white; /* Warna teks */
+}
